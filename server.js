@@ -30,6 +30,8 @@ mongoose.connect(
     console.log("Mongoose connection error: ", err);
   });
 
+// Add an express static route to serve up client build folder in heroku
+app.use(express.static("client/build"));
 
 // Add an api/config to test
 
