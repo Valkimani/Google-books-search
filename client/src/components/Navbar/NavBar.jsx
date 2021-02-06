@@ -7,12 +7,12 @@ const NavBar = () => {
 
 
         <nav>
-    <div class="nav-wrapper">
+    <div className="nav-wrapper">
       <ul id="nav-mobile" className="left hide-on-med-and-down">
         <li>
             <NavLink to="/save" activeStyle={{backgroundColor: "rgba (0,0,0,0,0)"}}>Save</NavLink>
             </li>
-        <li><NavLink to="/search" activeStyle={{backgroundColor: "rgba (0,0,0,0,0)"}}>Save</NavLink>
+        <li><NavLink to="/search" activeStyle={{backgroundColor: "rgba (0,0,0,0,0)"}}>Search</NavLink>
             </li>
       </ul>
     </div>
