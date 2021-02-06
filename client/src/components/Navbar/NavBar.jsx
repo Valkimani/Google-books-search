@@ -1,17 +1,22 @@
 import React from 'react';
+import {NavLink} from "react=router-dom";
 
 
 const NavBar = () => {
     return (
 
-        <ul className="nav">
-  <li className="nav-item">
-    <link className="nav-link active" href="/search">Search</link>
-  </li>
-  <li className="nav-item">
-    <link className="nav-link" href="/saved">Saved</link>
-  </li>
-</ul>
+
+        <nav>
+    <div class="nav-wrapper">
+      <ul id="nav-mobile" class="left hide-on-med-and-down">
+        <li><a href="save.html">Save</a></li>
+        <li><a href="search.html">Search</a></li>
+      </ul>
+    </div>
+  </nav>
+
+
+        
   );
 }
 
