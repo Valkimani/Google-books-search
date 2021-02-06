@@ -1,9 +1,9 @@
 
-import { Component } from "react";
+
 import {BrowserRouter as Router,Route,Switch} from "react-router-dom";
 import NavBar from "./components/Navbar/NavBar";
-import Save from "./containers/Save/Save";
-import Search from "./containers/Search/Search";
+import Save from "./pages/Save/Save";
+import Search from "./pages/Search/Search";
 
 function App() {
      return (
