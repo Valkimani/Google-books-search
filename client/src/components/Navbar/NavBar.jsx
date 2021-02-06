@@ -1,5 +1,5 @@
 import React from 'react';
-import {NavLink} from "react=router-dom";
+import {NavLink} from "react-router-dom";
 
 
 const NavBar = () => {
@@ -8,9 +8,12 @@ const NavBar = () => {
 
         <nav>
     <div class="nav-wrapper">
-      <ul id="nav-mobile" class="left hide-on-med-and-down">
-        <li><a href="save.html">Save</a></li>
-        <li><a href="search.html">Search</a></li>
+      <ul id="nav-mobile" className="left hide-on-med-and-down">
+        <li>
+            <NavLink to="/save" activeStyle={{backgroundColor: "rgba (0,0,0,0,0)"}}>Save</NavLink>
+            </li>
+        <li><NavLink to="/search" activeStyle={{backgroundColor: "rgba (0,0,0,0,0)"}}>Save</NavLink>
+            </li>
       </ul>
     </div>
   </nav>

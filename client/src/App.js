@@ -1,7 +1,7 @@
 
 
 import {BrowserRouter as Router,Route,Switch} from "react-router-dom";
-import NavBar from "./components/Navbar/NavBar";
+import NavBar from "./components/NavBar/NavBar";
 import Save from "./pages/Save/Save";
 import Search from "./pages/Search/Search";
 
