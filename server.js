@@ -38,6 +38,13 @@ app.use(express.static("client/build"));
 app.get("/api/config", (req,res) =>{
     console.log({success:true});
 })
+
+// Added a wildcard  route
+
+app.get("*", (req, res) => {
+    res.sendFile(path.join(__dirname, "client/build/index.html"));
+  });
+  
 app.listen(PORT, () => {
     console.log(`Server is running on http://localhost:${PORT}`);
 });
