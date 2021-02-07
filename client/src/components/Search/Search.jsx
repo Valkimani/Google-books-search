@@ -1,8 +1,11 @@
-import React from 'react';
+import React, { Component } from 'react';
+import Logo from "../Logo/Logo";
 
 const Search = () => {
     return (
         <div>
+            <Logo/>
+
             
         </div>
     );
